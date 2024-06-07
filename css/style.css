@@ -1,0 +1,402 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container{
+    max-width:1440px;
+    margin: 0 auto;
+    font-family: 'Poppins';
+}
+/*Header */
+.logo{
+    width: 185px;
+    height:41px;
+    margin: 29px 69px 30px 54px;
+    vertical-align: middle;
+}
+.nav_bar{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top:auto 702px auto 0;
+}
+
+.nav_li{
+    display: inline-block;
+}
+.nav_li:not(:first-child){
+    margin-left: 75px;
+}
+.nav_a{
+    font-size:16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height:24px;
+    color:#000000;
+}
+/* Hero Section*/
+.hero-section{
+    max-width: 1440px;
+    height:316px;
+    margin-bottom: 49px;
+}
+.hero-image{
+    width:100%;
+    height:auto;
+}
+/*products section */
+.products-header{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: #3A3A3A;
+    margin-bottom: 50px;
+}
+.product-list {
+    padding: 17px 105px 74px 99px;
+    
+}
+
+.all-products {
+display: flex;/*სხვანაირად ვერ იმუშავა inline block-მა რომ ელემენტები გვერდიგვერდ ყოფილიყო */
+width: 100%;
+height: 446px;
+}
+.gallery {
+    display: inline-block;
+    width: 285px;
+    height: 446px;
+    margin-right: 32px;
+    background-color: #F4F5F7;
+}
+.gallery-header{
+font-size: 24px;
+font-weight: 600;
+line-height: 28.8px;
+color: #3A3A3A;
+margin-top:16px;
+margin-left:16px;
+}
+.gallery-paraghrap{
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+color:#898989;
+margin-top:8px;
+margin-left:16px;
+}
+
+.gallery:last-child {
+    margin-right: 0;
+}
+.gallery-item {
+    width: 100%;
+    height: auto; 
+    display: block;
+}
+/*Range Section */
+.range {
+    max-width: 1440px;
+    padding: 0 142px 133px 115px;
+    
+}
+
+.range-header {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: #333333;
+}
+
+.range-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #666666;
+}
+
+.range-description {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+    color: #333333;
+    margin-top:16px;
+}
+
+.range-card {
+    display: inline-block;
+    width: 381px;
+    height: 480px;
+    margin-right: 20px;
+}
+
+.range-card:last-child {
+    margin-right: 0;
+}
+
+.all-ranges {
+    display: flex;
+    width: 1183px;
+    margin-top: 48.29px; 
+    
+}
+/*Description Section */
+.description{
+max-width: 1440px;
+height: 631px;
+padding: 0 114px 150px 84px;
+}
+.desc-text{
+margin:110px 0 70px 0
+}
+.desc-header{
+    display: inline-block;
+}
+.header-one{
+display: inline-block;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+text-align: left;
+color:#000000;
+margin-right: 56px;
+}
+.header-two{
+display: inline-block;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+text-align: left;
+color: #9F9F9F;
+}
+.desc-paragraph{
+width: 1026px;
+height: 174px;
+color: #9F9F9F;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: justified;
+}
+.first{
+    margin-bottom: 30px;
+}
+.description-gallery{
+display: flex;
+width: 1239px;
+height: 348px;
+margin-top:36px;
+}
+.sofa-image1, .sofa-image2{
+width: 605px;
+height: 348px;
+}
+.sofa-image1{
+margin-right: 29px;
+}
+/*about Company Section */
+.about-company{
+    width:100%;
+    height:270px;
+    background-color:  #FAF3EA;
+    padding:100px 53px;
+    
+}
+.company-info{
+height: 70px;
+margin:0 auto;
+display: flex;
+}
+.info-card{
+    display: inline-block;
+    margin-right: 148.67px;
+}
+.info-card:last-child{
+    margin-right: 0;
+}
+.info-header{
+font-size: 25px;
+font-weight: 600;
+line-height: 37.5px;
+color:#242424;
+}
+.info-p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #898989;
+}
+
+/*Footer */
+footer{
+    width:100%;
+    height:505px;
+    padding:48px 564.99px 145px 100px;
+    
+}
+.footer-box{
+width: 775.01px;
+height: 312px;
+
+}
+.footer-columns{
+    display: flex;
+}
+.footer-header{
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+color: #000000;
+}
+.address{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #9F9F9F;
+width: 285px;
+height: 72px;
+}
+.first-column{
+    display: inline-block;
+    margin-right:138px;
+    width: 285px;
+    
+}
+.second-column{
+    display: inline-block;
+    width: 68px;
+    height: 312px;
+
+}
+.third-column{
+display: inline-block;
+width: 140px;
+height: 242px;
+margin-left: 162px;
+
+}
+.links-header, .help-header{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #9F9F9F;
+    margin-top: 0;
+    margin-bottom:55px;
+     }
+.links-list, .help-list{
+   margin-bottom: 46px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000000;
+}
+/*Contact Page */
+.contact-header{
+    text-align: center;
+    font-size: 36px; 
+    font-weight: 600;
+    line-height: 54px;
+    color:#000000;
+}
+.contact-text{
+    width: 644px;
+    height: 48px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top:7px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#9F9F9F;
+}
+
+.information{
+    width: 502px;
+    height: 537px;
+    margin:82px 102px 20px 82px;
+    display: inline-block;
+    padding: 94px 155px 262px 0;
+}
+.address-box, .phone-box{
+    display: inline-block;
+}
+.address-info{
+display: inline-block;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+margin-right: 30px;
+color:#000000;
+vertical-align: top;
+}
+.phone-info{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #000000;
+    margin-right: 63px;
+}
+.address{
+width: 212px;
+height: 72px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color:#000000;
+display: inline-block;
+margin-top: 8px;
+}
+.mobile{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color:#000000;
+margin-top: 12px;
+}
+.map{
+display: inline-block;
+width: 680px;
+height: 374px;
+vertical-align: middle;
+}
+.map-image{
+    width:100%;
+    height:100%;
+}
+
+/*description-section */
+.description-section{
+    width: 817px;
+    height: 238px;
+    margin:0 535px 60px 88px;
+}
+.description-header{
+font-size: 30px;
+font-weight: 500;
+line-height: 45px;
+color:#000000;
+margin-bottom:12px;
+}
+.description-paraghrap{
+    width: 817px;
+    height: 115px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    color:#9F9F9F;
+    text-align: justify;
+}
+.read-more{
+border-bottom: 1px solid #000000;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color:#000000;
+margin-top:30px;
+display: inline-block;
+}
