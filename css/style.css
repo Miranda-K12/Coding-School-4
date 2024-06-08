@@ -6,6 +6,7 @@
     max-width:1440px;
     margin: 0 auto;
     font-family: 'Poppins';
+    box-sizing: border-box;
 }
 /*Header */
 .logo{
@@ -58,16 +59,17 @@
 }
 
 .all-products {
-display: flex;/*სხვანაირად ვერ იმუშავა inline block-მა რომ ელემენტები გვერდიგვერდ ყოფილიყო */
+
 width: 100%;
 height: 446px;
 }
 .gallery {
     display: inline-block;
+    margin: 8px;
     width: 285px;
     height: 446px;
-    margin-right: 32px;
-    background-color: #F4F5F7;
+    background-color: #f4f5f7;
+    text-align: left;
 }
 .gallery-header{
 font-size: 24px;
